@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 1, 2017, 1:37:08 PM
+    Author     : Joel1
+*/
+body{
+    background-color: black;
+}
+.bold{
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+}
+.head {
+    margin:-10px auto;
+    width: 100%;
+    background-color: darkslategrey;
+    display:inline-block;
+    position: relative;
+    float: right;
+    box-shadow: 0px 7px 0px 0px rgba(0,0,0, .5);
+    box-shadow: 0px 0px 0px 7px rgba(0,0,0, .5);
+    color: white;
+    border-radius: 15px;
+    z-index: 5;
+}
+.head h3{
+    font-size: 50px;
+    float: left;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 2%;
+}
+.head h2 {
+    text-align: right;
+    margin-right: 2%;
+    float:bottom;
+    font-size: 12px;
+    position:relative;
+    margin-top: 2px;
+}
+.head h1{
+    text-align: right;
+    margin-right: 2%;
+    float: top;
+    font-size: 35px;
+    position:relative;
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+#resume {
+    padding-top: 30px;
+    display:inline-block;
+    background-color: whitesmoke;
+    padding-bottom: 30px;
+}
+#projects{
+    padding-top: 30px;
+    background-color: whitesmoke;
+    padding-bottom: 30px;
+    width: 100%;
+    column-count: 3;
+}
+#test{
+    margin:0 auto;
+}
+figure{
+    margin:auto;
+}
+li{
+    padding-bottom: 3px;
+}
