@@ -72,6 +72,11 @@ ul{
 }
 figure{
     margin:auto;
+    text-align: center;
+}
+img{
+    margin: auto;
+    display:block;
 }
 li{
     padding-bottom: 3px;
