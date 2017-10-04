@@ -8,7 +8,9 @@ and open the template in the editor.
     Author     : Joel1
 */
 body{
-    background-color: black;
+    background-color: white;
+    max-width:1280px;
+    margin: auto;
 }
 .bold{
     font-weight: bold;
@@ -56,20 +58,46 @@ ul{
 }
 #resume {
     padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
     display:inline-block;
     background-color: whitesmoke;
     padding-bottom: 30px;
 }
+#education{
+    padding: 1%;
+}
+#experience{
+    padding: 1%;
+}
+#language{
+    padding: 1%;
+}
+#education:hover{
+    border-radius: 7px;
+    box-shadow: 7px 7px 7px 7px rgba(0,0,0, .5);
+}
+
+#experience:hover{
+    border-radius: 7px;
+    box-shadow: 7px 7px 7px 7px rgba(0,0,0, .5);
+}
+
+#language:hover{
+    border-radius: 7px;
+    box-shadow: 7px 7px 7px 7px rgba(0,0,0, .5);
+}
 #projects{
     padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
     background-color: whitesmoke;
     padding-bottom: 30px;
-    width: 100%;
     column-count: 3;
+    display:inline-block;
+    width:80%;
 }
-#test{
-    margin:0 auto;
-}
+
 figure{
     margin:auto;
     text-align: center;
@@ -77,7 +105,10 @@ figure{
 img{
     margin: auto;
     display:block;
+    background: black;
+    width: 230px;
 }
+
 li{
     padding-bottom: 3px;
 }
