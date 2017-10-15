@@ -12,11 +12,22 @@ body{
     max-width:1920px;
     margin: auto;
 }
-
+#intro{
+    border-bottom: solid whitesmoke;
+}
+#intro h1{
+    margin: 0;
+}
+#intro h4{
+    margin: 0;
+    margin-left: 25px;
+    font-weight:normal;
+}
 #content{
     float: right;
-    width:80%;
+    width:75%;
     background-color: white;
+    padding:25px;
 }
 #profile{
     float: left;
@@ -84,21 +95,13 @@ ul{
     background-color: whitesmoke;
     padding-bottom: 0;
 }
-#resume h3{
-    margin:0;
-}
 #education{
-    padding: 1%;
-    padding-top: 0;
-    padding-bottom: 0;
+    border-bottom: solid whitesmoke;
+
 }
 #experience{
-    padding: 1%;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-#language{
-    padding: 1%;
+    border-bottom: solid whitesmoke;
+
 }
 
 #projects{
