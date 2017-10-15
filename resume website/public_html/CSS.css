@@ -5,12 +5,21 @@ and open the template in the editor.
 */
 /* 
     Created on : Oct 1, 2017, 1:37:08 PM
-    Author     : Joel1
+    Author     : Joel
 */
 body{
-    background-color: white;
-    max-width:1280px;
+    background-color: whitesmoke;
+    max-width:1920px;
     margin: auto;
+}
+
+#content{
+    float: right;
+    width:80%;
+    background-color: white;
+}
+#profile{
+    float: left;
 }
 .bold{
     font-weight: bold;
@@ -21,24 +30,35 @@ ul{
 .head {
     margin:-10px auto;
     width: 100%;
-    background-color: darkslategrey;
+    background-color: whitesmoke;
     display:inline-block;
     position: relative;
     float: right;
-    box-shadow: 0px 7px 0px 0px rgba(0,0,0, .5);
-    box-shadow: 0px 0px 0px 7px rgba(0,0,0, .5);
-    color: white;
-    border-radius: 15px;
-    z-index: 5;
+    color: black;
+    z-index: 0;
+    border-bottom: solid black;
 }
-.head h3{
-    font-size: 50px;
+.head ul{
+    font-size: 17px;
     float: left;
-    text-align: center;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    margin-left: 2%;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
+.head li{
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+.head li a{
+    display:box;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.head li a:visited{
+    color:black;
+}
+
 .head h2 {
     text-align: right;
     margin-right: 2%;
@@ -57,41 +77,35 @@ ul{
     margin-bottom: 0px;
 }
 #resume {
-    padding-top: 30px;
+    margin-top: 25px;
     padding-left: 10%;
     padding-right: 10%;
     display:inline-block;
     background-color: whitesmoke;
-    padding-bottom: 30px;
+    padding-bottom: 0;
+}
+#resume h3{
+    margin:0;
 }
 #education{
     padding: 1%;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 #experience{
     padding: 1%;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 #language{
     padding: 1%;
 }
-#education:hover{
-    border-radius: 7px;
-    box-shadow: 7px 7px 7px 7px rgba(0,0,0, .5);
-}
 
-#experience:hover{
-    border-radius: 7px;
-    box-shadow: 7px 7px 7px 7px rgba(0,0,0, .5);
-}
-
-#language:hover{
-    border-radius: 7px;
-    box-shadow: 7px 7px 7px 7px rgba(0,0,0, .5);
-}
 #projects{
     padding-top: 30px;
     padding-left: 10%;
     padding-right: 10%;
-    background-color: whitesmoke;
+    background-color: white;
     padding-bottom: 30px;
     column-count: 3;
     display:inline-block;
@@ -110,5 +124,34 @@ img{
 }
 
 li{
-    padding-bottom: 3px;
+    padding-bottom: 6px;
+}
+
+.footer {
+    margin:-10px auto;
+    width: 100%;
+    background-color: whitesmoke;
+    display:inline-block;
+    position: relative;
+    float: right;
+    color: black;
+    z-index: 0;
+    border-bottom: solid black;
+}
+.footer h2 {
+    text-align: right;
+    margin-right: 2%;
+    float:bottom;
+    font-size: 12px;
+    position:relative;
+    margin-top: 2px;
+}
+.footer h1{
+    text-align: right;
+    margin-right: 2%;
+    float: top;
+    font-size: 35px;
+    position:relative;
+    margin-top: 7px;
+    margin-bottom: 0px;
 }
