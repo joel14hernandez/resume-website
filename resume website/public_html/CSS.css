@@ -32,6 +32,15 @@ body{
 #profile{
     float: left;
 }
+#about{
+    margin-top: 10px;
+    column-count: 2;
+    width:80%;
+    margin:10px auto;
+}
+#about p{
+    margin: 0;
+}
 .bold{
     font-weight: bold;
 }
@@ -88,7 +97,7 @@ ul{
     margin-bottom: 0px;
 }
 #resume {
-    margin-top: 25px;
+    margin-top: 50px;
     padding-left: 10%;
     padding-right: 10%;
     display:inline-block;
@@ -101,7 +110,59 @@ ul{
 }
 #experience{
     border-bottom: solid whitesmoke;
+    float: right;
+    position: relative;
+}
 
+#timelineContainer{
+    position: relative;
+}
+
+.timeline{
+    margin-left:40px;
+}
+.timeline:after{
+    content: '';
+    width:2px;
+    top:0;
+    bottom: 0;
+    background-color: gray;
+    position: absolute;
+    margin-left: -20px;
+}
+
+.container{
+    position:relative;
+}
+
+.container:after{
+    position:absolute;
+    width: 10px;
+    height: 10px;
+    content: '';
+    background-color: white;
+    border: 4px solid gray;
+    border-radius: 50%;
+    z-index: 1;
+    top:-0px;
+    left:-27px;
+}
+
+.container h4{
+    margin-bottom: 0;
+}
+
+.container p{
+    margin-left: 25px;
+    margin-top: 2px;
+    font-size: .8em;
+    color:gray;
+    margin-bottom:5px
+}
+.container ul{
+    margin: 0;
+    margin-left:10px;
+    padding:0;
 }
 
 #projects{
