@@ -45,7 +45,7 @@ h3{
 }
 
 #profileBar{
-    margin-top: -15px;
+    margin-top: 0px;
     background: white;
 
 }
@@ -53,6 +53,7 @@ h3{
 #profileBar ul{
     padding: 0;
     display:block;
+    margin: 0;
 }
 
 #profileBar ul li{
@@ -317,18 +318,13 @@ figure{
         display:inline-block;
     }
     #profile img{
-        float: left;
+        float:left;
     }
     #profileBar{
-       float: right;
-       display:table-column;
-    }
-    #profileBar a{
-        text-orientation:upright;
-    }
-    #profileBar ul li{
-    width:100%;
-    display:block;
+        margin-left: -70px;
+        margin-top: 79px;
+        transform: rotate(-90deg);
+        float: right;
     }
     #content{
         float:none;
